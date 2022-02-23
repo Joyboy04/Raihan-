@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 0 100px;
+    background-image: url("/static/image/background.jpg");
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-size: 40px;
+    font-family: 'Press Start 2P', sans-serif;
+    color: black;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.lazyLoaded {
+    width: 140px;
+    height: 120px;
+    border: 5px solid wheat;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 7px;
+    box-shadow: white;
+    background-color: wheat;
+}
+
+.lazyLoaded:hover {
+    box-shadow: white;
+}
+
+a:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 1;
+    padding: 10px 100px;
+    color: blue;
+    background-color: green;
+}
+
+nav .home {
+    position: relative;
+    margin-right: 10px;
+    transition: 0.5s;
+    color: blue;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.5s;
+    color: black;
+}
+
+.squareRoot,
+.hypotenuse,
+.convertScore {
+    padding-top: 25px;
+}
